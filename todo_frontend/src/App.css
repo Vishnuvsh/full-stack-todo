@@ -1,0 +1,111 @@
+/* Main container */
+.app-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Heading */
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input + Add button */
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.todo-input:focus {
+  border-color: #4c8bf5;
+  outline: none;
+}
+
+.add-btn {
+  background: #4c8bf5;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.add-btn:hover {
+  background: #3b6fd4;
+}
+
+/* ToDo List */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background: #f8f9fa;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Completed text */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.toggle-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #ffc107;
+  color: #333;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.toggle-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #dc3545;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background: #bd2130;
+}
